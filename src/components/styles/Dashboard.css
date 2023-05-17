@@ -1,0 +1,50 @@
+.dashboard-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 300px;
+    padding: 20px;
+    border-right: 3px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #192e3a;
+    /* background-color: #d7e0ff; */
+    color: white;
+    overflow-y: auto;
+}
+
+.sidenav-item a {
+    color: white;
+    margin-bottom: 16px;
+}
+
+.navbar-light .nav-link.active {
+    background-color: #7a92eb;
+    border-radius: 15px;
+    color: white;
+    width: "100%";
+}
+
+.content-wrapper {
+    padding: 20px;
+    margin-left: 300px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
