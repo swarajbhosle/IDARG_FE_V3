@@ -35,7 +35,7 @@ const UploadResume = () => {
 
         // Make the POST request to the backend API
         // Replace 'YOUR_BACKEND_ENDPOINT' with the actual endpoint in your backend
-        fetch('https://13.234.240.243.nip.io/upload-resume', {
+        fetch('https://a10ba55a-c235-4a01-8b1d-1c4727a1225f.mock.pstmn.io/uploadresume', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
